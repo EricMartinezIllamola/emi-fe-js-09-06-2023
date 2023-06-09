@@ -1,0 +1,37 @@
+.container {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: none;
+}
+
+button {
+    width: 200px;
+    height: 200px;
+}
+
+.error {
+    color: red;
+}
+
+.enviar {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex {
+    display: flex;
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
+.rojo {
+    background-color: red;
+}
+
+h2 {
+    color: red;
+}

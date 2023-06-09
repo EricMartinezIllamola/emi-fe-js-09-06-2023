@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 en raya</title>
+    <link rel="stylesheet" href="./css/tresenraya.css">
+</head>
+<body>
+    <div class="flex">
+    <div>
+    <h1>Juego 3 en raya</h1>
+    <form method="post" name="formulario" onclick="return validation()">
+        <div class="row">
+            <label for="jugador1">Jugador 1:</label>
+            <input type="text" id="jugador1" class="jugador1" name="jugador1" onkeyup="validarJugador1()">
+            <div class="error" id="errorJugador1"></div>
+        </div>
+        <div class="row">
+            <label for="jugador2">Jugador 2:</label>
+            <input type="text" id="jugador2" class="jugador2" name="jugador2" onkeyup="validarJugador2()">
+            <div class="error" id="errorJugador2"></div>
+        </div>
+        <input type="button" value="Enviar">
+    </form>
+    </div>
+    <div><h2 id="ganador"></h2></div>
+    </div>
+    <div id="container" class="container">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+    <script src="./js/tresenraya.js"></script>
+</body>
+</html>
